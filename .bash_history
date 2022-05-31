@@ -82,3 +82,39 @@ ip a
 exit
 ip a
 exit
+yum install git -y
+git --version
+git init .
+ls -al
+touch file1
+ll
+vim files
+cat file
+cat file1
+ll
+cat file1
+cat file
+ll
+cat files
+git status
+git add files
+git commit -m "first commit" files
+git log
+git status
+touch file2
+git add .
+git commit -m "second commit" .
+git status
+git log
+git remote add origin https://github.com/Nag9844/DEVOPS.git
+git brancgh
+git branch
+git push -u origin master
+git branch branch1
+git branch
+git checkout branch1
+git branch
+ls
+ll
+git checkout master
+git status
